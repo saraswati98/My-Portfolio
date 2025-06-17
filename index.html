@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title> 
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Lottie -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Saraswati's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Hero Section -->
+    <section class="hero animated-section">
+      <div class="hero-text" data-aos="fade-right">
+        <h2>Hi, I'm <span>Saraswati Palav</span></h2>
+        <p>A passionate Front-End Developer building beautiful and responsive websites.</p>
+        <a href="projects.html" class="btn">View My Projects</a>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <img src="Mee.jpg" alt="Mee Photo" />
+      </div>
+    </section>
+
+    <!-- CV Section -->
+    <section class="cv-section card" data-aos="fade-up" style="text-align: center;">
+      <h2>My Resume</h2>
+      <a href="Resume.pdf" target="_blank" class="btn" style="margin-right: 10px;">View CV</a>
+      <a href="Resume.pdf" download class="btn">Download CV</a>
+    </section>
+
+    <!-- Qualification Section -->
+    <section class="qualification card" data-aos="fade-up">
+      <h2>My Qualifications</h2>
+      <ul>
+        <li><strong>BSc in Information Technology</strong> – From Changu kana thakur art's, commerce & science college, Mumbai University (2025)</li>
+        <li><strong>Basics of Information Technology and Interview skills Certification</strong> – Ckt College</li>
+      </ul>
+    </section>
+
+    <!-- Lottie Animation -->
+    <div style="text-align: center; margin: 40px 0;" data-aos="zoom-in">
+      <lottie-player 
+        src="https://assets10.lottiefiles.com/packages/lf20_jtbfg2nb.json"  
+        background="transparent"  
+        speed="1"  
+        style="width: 300px; height: 300px;"  
+        loop  
+        autoplay>
+      </lottie-player>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Saraswati. All rights reserved.</p> 
+  </footer>
+
+  <!-- AOS Init -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
